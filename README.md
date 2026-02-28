@@ -1,0 +1,2 @@
+- Lệnh tạo project laravel: composer create-project laravel/laravel tên-dự-án
+- Lệnh chạy project: php artisan serve
