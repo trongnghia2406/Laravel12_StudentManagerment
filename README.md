@@ -1,3 +1,4 @@
 - Lệnh tạo project laravel: composer create-project laravel/laravel tên-dự-án
 - Lệnh chạy project: php artisan serve
 - Lệnh kiểm tra route trong ứng dụng: php artisan route:list
+- Lệnh tạo view: php artisan make:view view-name

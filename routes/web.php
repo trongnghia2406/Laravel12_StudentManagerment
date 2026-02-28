@@ -40,3 +40,10 @@ Route::fallback(function (){
     return '404 Not Found';
 });
 // Kết quả: Khi truy cập vào bất kỳ đường dẫn nào không được định nghĩa trong các route trên sẽ hiển thị "404 Not Found"
+
+Route::get('contact-us', function (){
+    return view('contact-us');
+}) -> name('contact-us');
+// Kết quả: Khi truy cập vào đường dẫn http://localhost:8000/contact-us sẽ hiển thị nội dung của file resources/views/contact-us.blade.php, cụ thể là "Contact Us"
+Route::view('about-us', 'about-us') -> name('about-us');
+// Kết quả: Khi truy cập vào đường dẫn http://localhost:8000/about-us sẽ hiển thị nội dung của file resources/views/about-us.blade.php, cụ thể là "About Us"
